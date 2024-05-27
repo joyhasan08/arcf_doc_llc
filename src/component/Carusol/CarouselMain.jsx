@@ -1,25 +1,26 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import img1 from '/banner/Business Consultancy.png'
-import img2 from '/34661.jpg'
+import img1 from '/banner/boy.png'
+import img2 from '/banner/mye.png'
+import img3 from '/banner/front.png'
 
 import HeroMain from "../Hero/HeroMain";
 const CarouselMain = () => {
     return (
-        <div className="text-center bg-base-200 max-h-[700px] overflow-hidden ">
+        <div className="text-center bg-base-200 md:max-h-[700px] h-full overflow-hidden ">
             <Carousel
                 autoPlay={'interval'}
                 infiniteLoop='true'
-                thumbWidth={50}
+
                 showThumbs={false}
                 width={false}
-                stopOnHover='false'
-                interval={5000}
+                stopOnHover={false}
+                interval={3000}
             // className="w-fit mx-auto  "
 
             >
                 <div className="  ">
-                    <img className=" object-cover w-full" src={img1} />
+                    <img className=" object-cover w-full" src={img3} />
 
                     <div className="text-4xl top-10 absolute text-white ">
                         <HeroMain />
@@ -27,7 +28,15 @@ const CarouselMain = () => {
                 </div>
                 <div>
                     <img src={img2} />
-                    {/* <p className="legend">Legend 2</p> */}
+                    <div className="text-4xl top-10 absolute text-white ">
+                        <HeroMain />
+                    </div>
+                </div>
+                <div>
+                    <img src={img1} />
+                    <div className="text-4xl top-10 absolute text-white ">
+                        <HeroMain />
+                    </div>
                 </div>
             </Carousel>
         </div>

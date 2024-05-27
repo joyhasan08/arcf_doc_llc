@@ -6,19 +6,19 @@ const HeroMain = () => {
             <section className=" text-white font-inter">
                 <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
                     <div className="flex flex-col justify-center md:p-6 text-center rounded-sm lg:max-w-2xl xl:max-w-3xl lg:text-left">
-                        <div className="space-y-2">
-                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-4xl">Welcome To
+                        <div className="space-y-2 ">
+                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-2xl">Welcome To
                                 <span className="text-red-600"> ARCF</span>
                             </h1>
-                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-4xl  ">
+                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-2xl  ">
                                 Documents Clearing
                             </h1>
-                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-4xl  ">
+                            <h1 className="md:text-5xl tracking-wider font-bold leading-none text-2xl  ">
                                 Services  Co. L.L.C
                             </h1>
                         </div>
                         <p className="mt-6 mb-8 text-lg sm:mb-12">The company is committed to providing affordable services and maintaining international quality.
-                            𝗕𝐚𝐬𝐢𝐜 𝑺𝐞𝐫𝐯𝐢𝐜𝐞𝐬: All Visa procedure, Tickets, Tour and Hotel Packages and as per client demands.
+                            Basic Services All Visa procedure, Tickets, Tour and Hotel Packages and as per client demands.
                             Compliance and service charges are very flexible.
 
                         </p>

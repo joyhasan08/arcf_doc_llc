@@ -31,9 +31,9 @@ const NavbarMain = () => {
                     </a>
                 </div>
                 <div className="navbar-end hidden lg:flex ">
-                    <ul className="menu menu-horizontal px-1 ">
-                        <li><a>Item 1</a></li>
-                        <li>
+                    <ul className="menu menu-horizontal px-1 gap-4 ">
+                        <li ><a className="btn border border-red-500 hover:bg-red-500 hover:text-white">Contact Us</a></li>
+                        {/* <li>
                             <details>
                                 <summary>Parent</summary>
                                 <ul className="p-2">
@@ -41,8 +41,8 @@ const NavbarMain = () => {
                                     <li><a>Submenu 2</a></li>
                                 </ul>
                             </details>
-                        </li>
-                        <li><a>Item 3</a></li>
+                        </li> */}
+                        <li><a className="btn bg-red-500 text-white">About Us</a></li>
                     </ul>
                 </div>
                 {/* <div className="navbar-end">

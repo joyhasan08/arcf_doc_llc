@@ -8,7 +8,7 @@ const Services = () => {
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
                     <div>
                         <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">Our <span className="text-red-600">Services</span></h2>
-                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600">Quando cetero his ne, eum admodum sapientem ut.</p>
+                        <p className="max-w-3xl mx-auto mt-4 text-xl text-center text-gray-600">Our services streamline your document needs with expert precision.</p>
                     </div>
                     <div className="grid lg:gap-8 lg:grid-cols-2 lg:items-center">
                         <div>

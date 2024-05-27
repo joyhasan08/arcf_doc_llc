@@ -7,6 +7,7 @@ import HeroMain from './component/Hero/HeroMain'
 import MainBoday from './component/Main/MainBoday'
 import NavbarMain from './component/Navbar/NavbarMain'
 import Services from './component/Servicess/Services'
+import Testimonial from './component/Testimonial/Testimonial'
 
 
 
@@ -27,7 +28,8 @@ function App() {
       <CarouselMain />
       {/* <HeroMain /> */}
       <Services />
-      <MainBoday />
+      {/* <MainBoday /> */}
+      <Testimonial />
       <Footer />
 
     </>
