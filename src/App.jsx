@@ -4,7 +4,9 @@ import CarouselMain from './component/Carusol/CarouselMain'
 import Footer from './component/Flooter/Footer'
 import Hero from './component/Hero/Hero'
 import HeroMain from './component/Hero/HeroMain'
+import MainBoday from './component/Main/MainBoday'
 import NavbarMain from './component/Navbar/NavbarMain'
+import Services from './component/Servicess/Services'
 
 
 
@@ -24,6 +26,8 @@ function App() {
       </div> */}
       <CarouselMain />
       {/* <HeroMain /> */}
+      <Services />
+      <MainBoday />
       <Footer />
 
     </>

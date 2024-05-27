@@ -22,7 +22,7 @@ const NavbarMain = () => {
                         </ul>
                     </div>
                     <a className="btn btn-ghost text-xl flex flex-col md:flex-row py-8 md:py-0">
-                        <img className="w-14 rounded-full  border-2 border-red-600" src='/public/documents_logo.png' alt='' />
+                        <img className="w-14 rounded-full  border-2 border-red-600" src='/documents_logo.png' alt='' />
 
                         <p className="pl-5 text-lg flex   "> ARCF <span className="hidden md:block pl-2">  Documents</span>
                         </p>

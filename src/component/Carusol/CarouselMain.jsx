@@ -1,12 +1,12 @@
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import img1 from './../../../public/34605.jpg'
-import img2 from './../../../public/34661.jpg'
-import Hero from "../Hero/Hero";
+import img1 from '/banner/Business Consultancy.png'
+import img2 from '/34661.jpg'
+
 import HeroMain from "../Hero/HeroMain";
 const CarouselMain = () => {
     return (
-        <div className="text-center bg-base-200 max-h-[600px] overflow-hidden ">
+        <div className="text-center bg-base-200 max-h-[700px] overflow-hidden ">
             <Carousel
                 autoPlay={'interval'}
                 infiniteLoop='true'
@@ -14,7 +14,7 @@ const CarouselMain = () => {
                 showThumbs={false}
                 width={false}
                 stopOnHover='false'
-                interval={3000}
+                interval={5000}
             // className="w-fit mx-auto  "
 
             >
