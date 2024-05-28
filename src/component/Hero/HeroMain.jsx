@@ -17,14 +17,14 @@ const HeroMain = () => {
                                 Services  Co. L.L.C
                             </h1>
                         </div>
-                        <p className="mt-6 mb-8 text-lg sm:mb-12">The company is committed to providing affordable services and maintaining international quality.
+                        <p className="mt-6 mb-8 text-lg sm:mb-12 hidden md:block">The company is committed to providing affordable services and maintaining international quality.
                             Basic Services All Visa procedure, Tickets, Tour and Hotel Packages and as per client demands.
                             Compliance and service charges are very flexible.
 
                         </p>
-                        <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
-                            <a rel="noopener noreferrer" href="ct" className="px-8 py-3 text-lg font-semibold rounded bg-red-600 text-gray-50">Explore</a>
-                            <a rel="noopener noreferrer" href="ct" className="px-8 py-3 text-lg font-semibold border rounded border-gray-800 ">Contact</a>
+                        <div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start hidden md:block">
+                            <a rel="noopener noreferrer" href="#main" className="px-8 py-3 text-lg font-semibold rounded bg-red-600 text-gray-50">Explore</a>
+                            <a rel="noopener noreferrer" href="#ct" className="px-8 py-3 text-lg font-semibold border rounded border-gray-800 ">Contact</a>
                         </div>
                     </div>
                     {/* <div className="flex items-center justify-center p-6 mt-8 lg:mt-0 h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128">

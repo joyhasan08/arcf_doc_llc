@@ -4,7 +4,7 @@ import ServicesMore from "./ServicesMore";
 const Services = () => {
     return (
         <div>
-            <section className=" text-gray-800 font-inter">
+            <section id="main" className=" text-gray-800 font-inter">
                 <div className="container max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
                     <div>
                         <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl text-gray-900">Our <span className="text-red-600">Services</span></h2>
